@@ -11,3 +11,25 @@
 * [Github Dataset](https://github.com/ieee8023/covid-chestxray-dataset)
   
   This project extract images from publications.
+
+## Details
+
+### Datasets description
+
+|       |COVID-19   |Others   |
+|-------|-----------|---------|
+|train  |48         |48       |
+|val    |21         |21       |
+
+### Lab environment
+
+* Hygon C86 7185 CPU
+* Pre-Wukong DCU
+* 128GB RAM
+
+### Result
+
+|           |ACC    |AUC    |SEN    |F1     |
+|-----------|-------|-------|-------|-------|
+|train      |0.9167 |1.0    |0.8333 |0.9230 |
+|val        |0.9286 |0.9955 |0.8571 |0.9091 |
