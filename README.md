@@ -2,6 +2,22 @@
 
     This project uses a convolutional neural network to build a classifier to determine whether a patient's pneumonia is due to neocoronavirus or other types of pneumonia. The data set is described below.
 
+## Structure
+
+    .
+    |-- main.py                     # train model
+    |-- utils.py                    # define modules
+    |-- data
+    |   |-- public
+    |   |   |-- train
+    |   |   |   |-- positive
+    |   |   |   |-- negative
+    |   |   |-- val
+    |   |   |   |-- positive
+    |   |   |   |-- negative
+    |-- model
+    |   |-- resnet50_public-40.pth  # saved model
+
 ## Dataset
 
 * [Kaggle Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
