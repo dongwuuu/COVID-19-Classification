@@ -36,6 +36,4 @@
 
 ### ROC
 
-<center class="half">
   <img src="./result/data-resnet50_public.pth.png" width="400"/>
-</center>
