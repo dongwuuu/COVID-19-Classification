@@ -31,9 +31,10 @@
 
 |           |ACC    |AUC    |SEN    |F1     |
 |-----------|-------|-------|-------|-------|
-|train      |0.9167 |1.0000 |0.8333 |0.9230 |
-|val        |0.9286 |0.9955 |0.8571 |0.9091 |
+|train      |0.9792 |0.9970 |0.9792 |0.9792 |
+|val        |0.9762 |1.0    |0.9524 |0.9756 |
 
 ### ROC
 
-  <img src="./result/data-resnet50_public.pth.png" width="400"/>
+![ROC](./result/data-resnet50_public-40.pth.png)
+![matrix](./result/confusion_matrix.png)
