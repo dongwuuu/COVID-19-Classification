@@ -31,5 +31,11 @@
 
 |           |ACC    |AUC    |SEN    |F1     |
 |-----------|-------|-------|-------|-------|
-|train      |0.9167 |1.0    |0.8333 |0.9230 |
+|train      |0.9167 |1.0000 |0.8333 |0.9230 |
 |val        |0.9286 |0.9955 |0.8571 |0.9091 |
+
+### ROC
+
+<center class="half">
+  <img src="./result/data-resnet50_public.pth.png" width="400"/>
+</center>
